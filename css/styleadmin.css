@@ -1,0 +1,43 @@
+*{
+    font-family: Oswald,sans-serif;
+}
+.row{
+    width:130%;
+}
+.product{
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
+    width: 380px;
+}
+.product img{
+    width: 97%;
+    margin: -13px 0 0 6px;
+}
+.product-name-price{
+    display: flex;
+    justify-content: space-between;
+}
+.product-name{
+    font-weight: bold;
+    font-size: 23px;
+    margin-left: 15px;
+}
+.product-info{
+    margin-left: 15px;
+    font-size: 16px;
+    color: grey;
+}
+.product-price{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.product-button{
+    display: flex;
+    gap:25px;
+}
+.product-button button{
+    padding: 10px 40px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
