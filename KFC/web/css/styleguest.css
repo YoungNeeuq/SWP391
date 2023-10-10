@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+body li{
+    list-style-type: none;
+}
+.container-header{
+    margin: 0 5%;
+    display: flex;
+    margin-bottom: -24px;
+}
+.header-img{
+    margin-top: 10px;
+}
+.header-img img{
+width: 40%;
+}
+.header-select ul{
+    margin: 4% 0 0 8%;
+    display: flex;
+}
+.header-select li{
+    margin: 10px 7% 10px 0;
+    font-size: 25px
+}
+.header-list{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    display: none;
+}
+.banner img{
+    width: 100vw;
+    overflow-x: hidden;
+}
